@@ -1,5 +1,5 @@
-import React, {useState} from 'react';
-import { Formik, Form, Field, ErrorMessage, useFormik } from 'formik';
+import React from 'react';
+import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as yup from 'yup';
 import styled from '@emotion/styled';
 import { LabelText } from '../App.styled';
@@ -30,26 +30,10 @@ const ToFormikInput = styled(Field)`
 `;
 
 export const ContactForm = ({ onSubmit }) => {
-/*   const [name, setName] = useState('');
-  const [number, setNumber] = useState(''); */
-
   const handleSubmit = (values, { resetForm }) => {
     onSubmit(values);
     resetForm();
   };
-
-/*   const handleChange = event => {
-    setName(event.target.value.name);
-    setNumber(event.target.value.number);
-
-  }; */
-
-/*   const formik = useFormik({
-    initialValues: {
-      name: '', number: '' 
-    },
-    
-  }); */
 
   return (
     <div>
