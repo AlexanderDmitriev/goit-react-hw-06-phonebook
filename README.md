@@ -1,4 +1,3 @@
-**Читать на других языках: [Русский](README.md), [Українська](README.ua.md).**
 
 Используй этот
 [шаблон React-проекта](https://github.com/goitacademy/react-homework-template#readme)
